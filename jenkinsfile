@@ -13,9 +13,5 @@ pipeline
             echo "ahmedfathyy"
          }
       }
-      stage('Build with maven') {
-        steps {
-            sh 'mvn clean package'
-            }
-        }
+      
     }
