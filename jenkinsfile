@@ -1,6 +1,10 @@
 pipeline
 
    agent any
+   tools {
+        maven "MVN"
+        jdk "JDK-11"
+    }
 
    stages {
       stage('Verify Branch') {
