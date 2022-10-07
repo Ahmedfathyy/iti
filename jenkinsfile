@@ -10,6 +10,7 @@ pipeline
       stage('Verify Branch') {
          steps {
             echo "$GIT_BRANCH"
+            echo "ahmedfathyy"
          }
       }
       stage('Build with maven') {
