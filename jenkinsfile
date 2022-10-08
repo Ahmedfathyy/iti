@@ -54,7 +54,7 @@ pipeline {
                 {
                 sh """
                     docker login -u ${USERNAME} -p ${PASSWORD}
-                    docker push jenkins-pipeline:v1.0.0
+                    docker push jenkins-pipeline:latest
                     """ 
                 }
             }
