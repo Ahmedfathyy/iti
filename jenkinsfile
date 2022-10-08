@@ -40,7 +40,7 @@ pipeline {
             sh 'docker images -a'
             sh """
              
-               docker build -t jenkins-pipeline .
+               docker build -t ahmedfathyy/jenkins-pipeline .
                docker images -a
                
             """
@@ -54,7 +54,7 @@ pipeline {
                 {
                 sh """
                     docker login -u ${USERNAME} -p ${PASSWORD}
-                    docker push jenkins-pipeline:latest
+                    docker push ahmedfathyy/jenkins-pipeline:latest
                     """ 
                 }
             }
