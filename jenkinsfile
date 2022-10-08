@@ -20,6 +20,10 @@ pipeline {
             
             }
         }
-      
+      stage('run unit testing') { 
+       steps {
+         sh 'mvn test'
+         }
+      } 
     }
 }
