@@ -10,13 +10,14 @@ pipeline {
       stage('Verify Branch') {
          steps {
             echo "$GIT_BRANCH"
+            echo  "$JAVA_HOME"
             
          }
       }
       stage('Build with maven') {
         steps {
             sh 'mvn clean package'
-            echo  "$JAVA_HOME"
+            
             }
         }
       
