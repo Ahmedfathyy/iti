@@ -38,8 +38,8 @@ pipeline {
       stage('Docker Build') {
          steps {
             sh 'docker images -a'
-            sh
-             """
+            sh """
+             
                docker build -t jenkins-pipeline .
                docker images -a
                
