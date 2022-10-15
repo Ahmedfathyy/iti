@@ -38,7 +38,7 @@ pipeline {
 
       stage('Dependency-check-maven') { 
          steps { 
-            sh 'mvn site'
+            sh 'mvn verify'
             }
       }
       
