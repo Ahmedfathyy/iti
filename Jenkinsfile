@@ -33,6 +33,7 @@ pipeline {
       )
       }
    }
+   }
    
 
       stage('Dependency-check-maven') { 
@@ -40,7 +41,7 @@ pipeline {
             sh 'mvn site'
             }
       }
-   }   
+      
 
 
       stage('Docker Build') {
