@@ -55,6 +55,16 @@ pipeline {
             """
          }
       }
+
+      
+      stage('check Docker with trivy') { 
+         steps { 
+            sh 'trivy image ahmedfathyy/jenkins-pipeline'
+
+            }
+      }
+
+      
       stage ('Push Docker image'){
 
             steps{
