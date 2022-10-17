@@ -59,7 +59,7 @@ pipeline {
       
       stage('check Docker with trivy') { 
          steps { 
-            sh 'trivy image ahmedfathyy/jenkins-pipeline'
+            sh 'trivy image -f json -o results.json ahmedfathyy/jenkins-pipeline'
 
             }
       }
