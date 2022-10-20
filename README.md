@@ -3,3 +3,5 @@
 ![2 lab4](https://user-images.githubusercontent.com/100867143/195659654-98e7c186-67f7-49dc-8d8b-0f00643175c0.png)
 ![20 lab4](https://user-images.githubusercontent.com/100867143/195659656-2774e038-52d1-4391-b173-5e75e4e195ca.png)
 ![21 lab 4](https://user-images.githubusercontent.com/100867143/195659659-26175a87-b15c-4883-bc59-a8d8e7babfe6.png)
+![5 lab 5](https://user-images.githubusercontent.com/100867143/197053682-ac3c96e9-2287-49b7-8a19-1ff2b062de09.png)
+
